@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './assets/styles/index.css';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Cursor from './components/Cursor';
+import NeonAnimation from './components/NeonAnimation';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isMobile: false
+    };
+  }
+
+  componentDidMount() {
+    // Check if device is touch-only (mobile)
+    const isMobile = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+    this.setState({ isMobile });
+    
+    // Add a class to body if mobile for global CSS targeting
+    if (isMobile) {
+      document.body.classList.add('mobile-device');
+    }
+  }
+  
+  render() {
+    return (
+      <div className="nav-container">
+        <Cursor />
+        <Header />
+        <NeonAnimation />
+        <Hero />
+        <Skills />
+        <Projects />
+        <Contact />
+      </div>
+    );
+  }
 }
 
 export default App;
