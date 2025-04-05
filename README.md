@@ -1,57 +1,84 @@
-# Hemanth Polavarapu Portfolio
+# Hemanth Polavarapu - Personal Portfolio
 
-A personal portfolio website built with React, showcasing my skills, projects, and contact information.
+A modern, responsive portfolio website showcasing my skills, projects, and contact information.
+
+## Live Demo
+
+Visit the live portfolio at: [https://hemanthpolavarapu.github.io/personal-portfolio](https://hemanthpolavarapu.github.io/personal-portfolio)
 
 ## Features
 
 - Responsive design for all devices
-- Modern UI with neon-style animations
-- Custom cursor effects
-- Smooth scrolling and section transitions
-- Project showcases with hover effects
-- Contact links with interactive animations
+- Custom animated cursor (disabled on mobile devices)
+- Animated UI elements
+- Project showcase with live links
+- Contact section with social media links
+- Mobile-optimized navigation
 
 ## Technologies Used
 
-- React.js (using class components)
+- React.js
 - CSS3 with animations
-- Font Awesome for icons
-- Custom animations and transitions
+- Node.js
+- SQLite
+- Responsive Design
 
-## Project Structure
+## Projects Showcased
 
-- `src/components/` - Contains all React components
-- `src/assets/styles/` - Contains CSS stylesheets
-- `src/assets/images/` - Contains image assets
+1. **Real Time Voting Poll** - A real-time voting application
+   - [Live Demo](https://real-time-voting-app-eight.vercel.app/)
 
-## Components
+2. **The Weather Forecasting** - A weather prediction application
+   - [Live Demo](https://the-weather-forcasting.vercel.app/)
 
-- `Header` - Navigation bar with logo and menu
-- `Hero` - Introduction section with profile image
-- `Skills` - Skills categorized by type
-- `Projects` - Project showcase with links
-- `Contact` - Contact information with social links
-- `Cursor` - Custom cursor animation
-- `NeonAnimation` - Animated neon effects in background
+3. **Smart Budget Tracker** - A personal finance management application
+   - [Live Demo](https://smart-budget-tracker-gamma.vercel.app/)
 
-## How to Run
+## Installation and Setup
 
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Start the development server: `npm start`
+1. Clone the repository:
+   ```
+   git clone https://github.com/Hemanthpolavarapu/personal-portfolio.git
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd personal-portfolio
+   ```
+
+3. Install dependencies:
+   ```
+   npm install
+   ```
+
+4. Start the development server:
+   ```
+   npm start
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Deployment
 
-This project can be deployed using:
+To deploy to GitHub Pages:
 
-```bash
-npm run build
-```
+1. Install GitHub Pages package:
+   ```
+   npm install --save-dev gh-pages
+   ```
 
-The build folder will contain the optimized production build ready for deployment.
+2. Deploy the application:
+   ```
+   npm run deploy
+   ```
 
-## Credits
+## Contact
 
-- Fonts: Google Fonts (Montserrat)
-- Icons: Font Awesome
-- Project by Hemanth Polavarapu
+- LinkedIn: [https://www.linkedin.com/in/hemanth-polavarapu/](https://www.linkedin.com/in/hemanth-polavarapu/)
+- GitHub: [https://github.com/Hemanthpolavarapu](https://github.com/Hemanthpolavarapu)
+- Email: [hemanth3533@gmail.com](mailto:hemanth3533@gmail.com)
+- WhatsApp: [+91 7780708172](https://wa.me/7780708172)
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).

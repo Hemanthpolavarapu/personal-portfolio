@@ -13,7 +13,7 @@ class Hero extends React.Component {
             I am a frehser with multiple talents and skills
           </p>
           <div className="hero-buttons-container">
-            <a href="https://drive.google.com/file/d/1d7K86lxWCuuMhHxC-emrtteMWlH3a0Nt/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="nav-link border-btn my-btn">
+            <a href="https://drive.google.com/file/d/14fb6t2FKTPAiSu4bwKJXDHTiq15HlhFW/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="nav-link border-btn my-btn">
               <span data-content='My Resume'>My Resume</span>
             </a>
           </div>
