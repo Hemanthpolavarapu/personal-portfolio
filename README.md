@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing my skills, projects, and conta
 
 ## Live Demo
 
-Visit the live portfolio at: [https://hemanthpolavarapu.github.io/personal-portfolio](https://hemanthpolavarapu.github.io/personal-portfolio)
+Visit the live portfolio at: [https://hemanth-polavarapu.vercel.app/](https://hemanth-polavarapu.vercel.app/)
 
 ## Features
 
@@ -60,17 +60,7 @@ Visit the live portfolio at: [https://hemanthpolavarapu.github.io/personal-portf
 
 ## Deployment
 
-To deploy to GitHub Pages:
-
-1. Install GitHub Pages package:
-   ```
-   npm install --save-dev gh-pages
-   ```
-
-2. Deploy the application:
-   ```
-   npm run deploy
-   ```
+This project is deployed using [Vercel](https://vercel.com/), which provides automatic deployments from Git repositories.
 
 ## Contact
 
